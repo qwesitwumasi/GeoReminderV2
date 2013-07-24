@@ -14,13 +14,13 @@
         android:background="#e4e4e4" >
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/settings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:background="@null"
             android:layout_margin="5dp"
+            android:background="@null"
             android:src="@drawable/settings" />
 
         <ImageView
@@ -29,8 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/icon" 
-            android:layout_margin="5dp"/>
+            android:layout_margin="10dp"
+            android:src="@drawable/icon" />
 
         <TextView
             android:id="@+id/textView1"
@@ -43,24 +43,25 @@
             android:textColor="#0d425a" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/check_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/imageButton1"
-            android:src="@drawable/check_in" 
-            android:background="@null"/>
+            android:layout_alignTop="@+id/settings"
+            android:layout_toLeftOf="@+id/settings"
+            android:background="@null"
+            android:src="@drawable/check_in" />
 
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
         android:layout_height="3dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/relativeLayout1"
         android:background="@drawable/top_footer" >
     </RelativeLayout>
-    
+
     <ImageButton
         android:id="@+id/add_reminder"
         android:layout_width="match_parent"
@@ -69,8 +70,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:background="@drawable/add_button_background"
-        
         android:padding="10dp"
         android:src="@drawable/add_button" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_reminder"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout2" >
+
+    </ListView>
+    
 
 </RelativeLayout>

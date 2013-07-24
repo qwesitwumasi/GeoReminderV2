@@ -22,6 +22,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.g6.georeminderv2.AddNotification"
+            android:label="@string/title_activity_add_notification" >
+        </activity>
+        <activity
+            android:name="com.g6.georeminderv2.AddReminder"
+            android:label="@string/title_activity_add_reminder" >
+        </activity>
+        <activity
+            android:name="com.g6.georeminderv2.TimeActivity"
+            android:label="@string/title_activity_time" >
+        </activity>
+        <activity
+            android:name="com.g6.georeminderv2.DateActivity"
+            android:label="@string/title_activity_date" >
+        </activity>
+        <activity
+            android:name="com.g6.georeminderv2.MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name="com.g6.georeminderv2.FavActivity"
+            android:label="@string/title_activity_fav" >
+        </activity>
+        <activity
+            android:name="com.g6.georeminderv2.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.g6.georeminderv2.CheckInActivity"
+            android:label="@string/title_activity_check_in" >
+        </activity>
     </application>
 
 </manifest>

@@ -3,6 +3,12 @@
 
     <string name="app_name">GeoReminder</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_notification">AddNotification</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_time">Set Time</string>
+    <string name="title_activity_date">Set Date</string>
+    <string name="title_activity_map">Locate on Map</string>
+    <string name="title_activity_fav">Favourite Locations</string>
+    <string name="title_activity_check_in">Check In</string>
 
 </resources>
