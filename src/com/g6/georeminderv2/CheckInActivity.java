@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class CheckInActivity extends Activity {
+public class CheckInActivity extends MapActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -12,11 +12,6 @@ public class CheckInActivity extends Activity {
 		setContentView(R.layout.activity_check_in);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.check_in, menu);
-		return true;
-	}
+
 
 }

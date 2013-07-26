@@ -10,5 +10,6 @@
     <string name="title_activity_map">Locate on Map</string>
     <string name="title_activity_fav">Favourite Locations</string>
     <string name="title_activity_check_in">Check In</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
